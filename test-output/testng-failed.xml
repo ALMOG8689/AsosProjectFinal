@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="asos.test.ContactTest">
+        <methods>
+          <include name="differentReEmail"/>
+          <include name="SigningInTest"/>
+          <include name="Succecfully"/>
+        </methods>
+      </class> <!-- asos.test.ContactTest -->
+      <class name="asos.test.SearchTest">
+        <methods>
+          <include name="searchItemAndLike"/>
+          <include name="SigningInTest"/>
+        </methods>
+      </class> <!-- asos.test.SearchTest -->
+      <class name="asos.test.SignInTest">
+        <methods>
+          <include name="SigningInTest"/>
+          <include name="HappyFlowUpperCase"/>
+        </methods>
+      </class> <!-- asos.test.SignInTest -->
+      <class name="asos.test.addItemToCart">
+        <methods>
+          <include name="addToCartAndLike"/>
+          <include name="addToCartAndRemove"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- asos.test.addItemToCart -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

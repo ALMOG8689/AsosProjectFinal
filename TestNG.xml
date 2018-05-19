@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="System"  verbose="4" >
+    <test name="System">
+    		<classes>
+    			<class name="asos.test.searchCareerTest" />
+    			<class name="asos.test.ContactTest"/>
+    			<class name="asos.test.ChangePasswordTest"/>
+    			<class name="asos.test.addItemToCart"/>
+    		</classes>
+    
+    </test>
+    <test name="Regression">
+    		<classes>
+    			<class name="asos.test.SignInTest" />
+    			<class name="asos.test.SearchTest" />
+    			<class name="asos.test.chooseCountryTest" />
+    		</classes>
+    </test>
+    <test name="Sanity">
+    		<classes>
+    			<class name="asos.test.SignUpTest" />
+    			<class name="asos.test.SignOutTest"/>
+    			<class name="asos.test.AsosHomePageTest"/>
+    		</classes>
+    
+    </test>
+    
+</suite>
